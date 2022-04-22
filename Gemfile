@@ -54,6 +54,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 6.0.0.rc1'
   gem 'pry', '~> 0.14.1'
   gem 'factory_bot_rails', '~> 6.2'
+  gem 'rubocop', '~> 1.28', '>= 1.28.1'
 end
 
 group :development do
