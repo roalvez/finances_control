@@ -511,6 +511,8 @@ Style/MethodCallWithArgsParentheses:
   - yield
   - raise
   - puts
+  - to
+  - describe
   Exclude:
   - "/**/Gemfile"
 
@@ -650,7 +652,7 @@ Style/StringConcatenation:
   Enabled: false
 
 Style/StringLiterals:
-  EnforcedStyle: double_quotes
+  EnforcedStyle: single_quotes
 
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
